@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Homework Organize</title>
+</head>
+<body>
+    <nav><h1>To do List</h1></nav>
+    <nav id="header">
+        <input class="input" type="text" placeholder="Enter the task you want to record">
+        <button id="recordTask" class="record-btn">Record</button>
+    </nav>
+    <nav id = "tasks">
+        
+        <div id="incompleteTasks" class="containerTasks">
+           <p>Missing</p>
+        
+        </div>
+        <div id="completeTasks" class="containerTasks">
+            <p>Done</p>
+        </div>
+
+        <script src="main.js"></script>
+    </nav>
+    <nav id="instructions">
+    <p>Click on a task to remove it.</p>
+    <p>Right-click on a task to move it to the "done" side</p>    
+    </nav>
+</body>
+</html>
